@@ -14,7 +14,7 @@ const App = () => {
   const designation = searchParams.get("designation");
   return (
     <>
-      <h1>{`Employee ${id} named ${name} works as ${designation}`}</h1>
+      <div className='details'>{`Employee ${id} named ${name} works as ${designation}`}</div>
     </>
   )
 }
