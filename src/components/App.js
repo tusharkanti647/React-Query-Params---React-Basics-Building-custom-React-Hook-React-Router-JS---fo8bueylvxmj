@@ -6,9 +6,9 @@ const App = () => {
   let [searchParams, setSearchParams] = useSearchParams();
   //Write your code here http://localhost:3000/?id=1&name=Robin&designation=scientist.
 
-  useEffect(() => {
-    setSearchParams({ id: 1, name: "Robin", designation: "scientist" })
-  }, [])
+  //useEffect(() => {
+  //setSearchParams({ id: 1, name: "Robin", designation: "scientist" })
+  //}, [])
   const id = searchParams.get("id");
   const name = searchParams.get("name");
   const designation = searchParams.get("designation");
